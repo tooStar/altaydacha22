@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="lab2.php" method="post">
+        <div>
+            <label for="name">ФИО:</label>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="phone">Телефон:</label>
+            <input type="tel" id="phone" name="phone"><br><br>
+        </div>
+
+        <p>1) Какое яйцо снесла Курочка-ряба?</p>
+        <input type="radio" id="golden" name="answer1" value="golden">
+        <label for="golden">Золотое</label><br>
+        <input type="radio" id="easter" name="answer1" value="easter">
+        <label for="easter">Пасхальное</label><br>
+        <input type="radio" id="kinder" name="answer1" value="kinder">
+        <label for="kinder">Киндерсюрприз</label><br>
+        <input type="radio" id="faberge" name="answer1" value="faberge">
+        <label for="faberge">Фаберже</label><br><br>
+
+        <p>2) Как в народе называют панельные пятиэтажные дома, в огромном количестве
+            возводившиеся в 60-е годы?</p>
+        <input type="radio" id="slums" name="answer2" value="slums">
+        <label for="slums">Трущобы</label><br>
+        <input type="radio" id="shacks" name="answer2" value="shacks">
+        <label for="shacks">Хрущобы</label><br>
+        <input type="radio" id="shells" name="answer2" value="shells">
+        <label for="shells">Ракушки</label><br>
+        <input type="radio" id="skyscrapers" name="answer2" value="skyscrapers">
+        <label for="skyscrapers">Небоскребы</label><br><br>
+
+        <p>3) Как называлась кинокартина, получившая в 1991 году Оскара в категории "Лучший фильм"?</p>
+        <input type="radio" id="silence" name="answer3" value="silence">
+        <label for="silence">"Народ безмолвствует"</label><br>
+        <input type="radio" id="lamb" name="answer3" value="lamb">
+        <label for="lamb">"Молчи, овца"</label><br>
+        <input type="radio" id="dead" name="answer3" value="dead">
+        <label for="dead">"Мертваятишина"</label><br>
+        <input type="radio" id="lambsilence" name="answer3" value="lambsilence">
+        <label for="lambsilence">"Молчание ягнят"</label><br><br>
+
+        <p>4) Как в 90-е годы дачники стали называть свои участки?</p>
+        <input type="radio" id="ranch" name="answer4" value="ranch">
+        <label for="ranch">"Ранчо"</label><br>
+        <input type="radio" id="fazenda" name="answer4" value="fazenda">
+        <label for="fazenda">"Фазенда"</label><br>
+        <input type="radio" id="ferm" name="answer4" value="ferm">
+        <label for="ferm">"Ферма"</label><br>
+        <input type="radio" id="cut" name="answer4" value="cut">
+        <label for="cut">"Отруб"</label><br><br>
+
+        <p>5) Чью мать обещал показать американцам Хрущев?</p>
+        <input type="radio" id="kuzkina" name="answer5" value="kuzkina">
+        <label for="kuzkina">"Кузькину"</label><br>
+        <input type="radio" id="his" name="answer5" value="his">
+        <label for="his">"Свою"</label><br>
+        <input type="radio" id="demon" name="answer5" value="demon">
+        <label for="demon">"Чертову"</label><br>
+        <input type="radio" id="miko" name="answer5" value="miko">
+        <label for="miko">"Микояна"</label><br><br>
+
+        <p>6) Как мировая пресса называла премьер-министра Великобритании Маргарет
+            Тэтчер? </p>
+        <input type="radio" id="steel" name="answer6" value="steel">
+        <label for="steel">"Стальная леди"</label><br>
+        <input type="radio" id="iron" name="answer6" value="iron">
+        <label for="iron">"Железная леди"</label><br>
+        <input type="radio" id="tin" name="answer6" value="tin">
+        <label for="tin">"Оловянный солдатик"</label><br>
+        <input type="radio" id="papich" name="answer6" value="papich">
+        <label for="papich">"Крепкий орешек"</label><br><br>
+
+        <p>7) Кто адресовал свое письмо "на деревню дедушке"?</p>
+        <input type="radio" id="filip" name="answer7" value="filip">
+        <label for="filip">"Филиппок"</label><br>
+        <input type="radio" id="hope" name="answer7" value="hope">
+        <label for="hope">"Надежда Крупская"</label><br>
+        <input type="radio" id="ivan" name="answer7" value="ivan">
+        <label for="ivan">"Ванька Жуков"</label><br>
+        <input type="radio" id="internate" name="answer7" value="internate">
+        <label for="internate">"Иванушка Интернэшнл"</label><br><br>
+
+        <p>8) Как называют людей, купающихся зимой в проруби?</p>
+        <input type="radio" id="Morzh" name="answer8" value="Morzh">
+        <label for="Morzh">"Моржи"</label><br>
+        <input type="radio" id="seacat" name="answer8" value="seacat">
+        <label for="seacat">"Тюлени"</label><br>
+        <input type="radio" id="morons" name="answer8" value="morons">
+        <label for="morons">"Отморозки"</label><br>
+        <input type="radio" id="winterbird" name="answer8" value="winterbird">
+        <label for="winterbird">"Зимородки"</label><br><br>
+
+        <p>9) Какая графа паспорта гражданина СССР была упразднена?</p>
+        <input type="radio" id="national" name="answer9" value="national">
+        <label for="national">"Национальность"</label><br>
+        <input type="radio" id="weight" name="answer9" value="weight">
+        <label for="weight">"Вес"</label><br>
+        <input type="radio" id="livemin" name="answer9" value="livemin">
+        <label for="livemin">"Прожиточный минимум"</label><br>
+        <input type="radio" id="politicredo" name="answer9" value="politicredo">
+        <label for="politicredo">"Политическое кредо"</label><br><br>
+
+        <p>10) Как расшифровывается буква "М" в аббревиатуре "МНС"?</p>
+        <input type="radio" id="lowprice" name="answer10" value="lowprice">
+        <label for="lowprice">"Малообеспеченный"</label><br>
+        <input type="radio" id="littleboy" name="answer10" value="littleboy">
+        <label for="littleboy">"Младший"</label><br>
+        <input type="radio" id="brave" name="answer10" value="brave">
+        <label for="brave">"Мужественный"</label><br>
+        <input type="radio" id="nosalt" name="answer10" value="nosalt">
+        <label for="nosalt">"Малосольный"</label><br><br>
+
+        <p>11) Что достает из широких штанин Владимир Маяковский в своем стихотворении?</p>
+        <input type="radio" id="mundut" name="answer11" value="mundut">
+        <label for="mundut">"Мандат"</label><br>
+        <input type="radio" id="passport" name="answer11" value="passport">
+        <label for="passport">"Паспорт"</label><br>
+        <input type="radio" id="goout" name="answer11" value="goout">
+        <label for="goout">"Справку на вывоз"</label><br>
+        <input type="radio" id="card" name="answer11" value="card">
+        <label for="card">"Членскую карточку"</label><br><br>
+
+        <p>12) Какое событие обещал Хрущев советскому народу к 1980 году?</p>
+        <input type="radio" id="olimpics" name="answer12" value="olimpics">
+        <label for="olimpics">"Олимпиаду"</label><br>
+        <input type="radio" id="communism" name="answer12" value="communism">
+        <label for="communism">"Коммунизм"</label><br>
+        <input type="radio" id="capitalism" name="answer12" value="capitalism">
+        <label for="capitalism">"Капитализм"</label><br>
+        <input type="radio" id="polygamy" name="answer12" value="polygamy">
+        <label for="polygamy">"Многоженство"</label><br><br>
+
+        <p>13) С кем из перечисленных людей ассоциируется после фильма "Кавказская
+            пленница" призыв к лаконичности?</p>
+        <input type="radio" id="spinose" name="answer13" value="spinose">
+        <label for="spinose">"Спиноза"</label><br>
+        <input type="radio" id="sklif" name="answer13" value="sklif">
+        <label for="sklif">"Склифосовский"</label><br>
+        <input type="radio" id="Sirano" name="answer13" value="Sirano">
+        <label for="Sirano">"Сирано де Бержерак"</label><br>
+        <input type="radio" id="semash" name="answer13" value="semash">
+        <label for="semash">"Семашко"</label><br><br>
+
+        <p>14) Чем обмениваются новобрачные в ЗАГСе?</p>
+        <input type="radio" id="telephone" name="answer14" value="telephone">
+        <label for="telephone">"Телефонами"</label><br>
+        <input type="radio" id="photos" name="answer14" value="photos">
+        <label for="photos">"Фотографиями"</label><br>
+        <input type="radio" id="rings" name="answer14" value="rings">
+        <label for="rings">"Кольцами"</label><br>
+        <input type="radio" id="handhold" name="answer14" value="handhold">
+        <label for="handhold">"Рукопожатиями"</label><br><br>
+
+
+        <input type="submit" value="Отправить">
+    </form>
+</body>
+
+</html>
