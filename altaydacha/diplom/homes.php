@@ -195,7 +195,7 @@ session_start();
                     </li>
                 </ul>
                 <div class="footer-copy">
-                    <p class="footer-copy-text">НЕГРЫ</p>
+                    <p class="footer-copy-text">Темно</p>
                 </div>
             </div>
         </footer>
